@@ -1,0 +1,24 @@
+{
+  "name": "eventapi",
+  "version": "1.0.0",
+  "description": "event application back end using REST",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb-memory-server": "^7.2.0",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.0.2",
+    "nodemon": "^2.0.12"
+  }
+}
